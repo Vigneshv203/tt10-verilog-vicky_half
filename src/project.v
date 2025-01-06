@@ -18,7 +18,7 @@ module tt_um_halfadder (
 
   // All output pins must be assigned. If not used, assign to 0.
     assign uo_out[0]  = ui_in[0] ^ ui_in[1];  // carry
-    assign u0_out[1] = ui_in[0] & ui_in[1];
+    assign uo_out[1] = ui_in[0] & ui_in[1];
  // assign uio_oe  = 0;
     assign uo_out[7:2]=6'b0;
   // List all unused inputs to prevent warnings
